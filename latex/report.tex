@@ -1,0 +1,81 @@
+\documentclass[plainreport]{cgvpub}
+% other document types next to bachelorofscience:
+% masterofscience
+% diplominf
+% diplomist
+% beleg
+
+%more options (to be appended in the square brackets):
+% german....... german version 
+% female........ to be used for female endings in german
+% bibnum....... numerical reference style
+% final............ intended for the final submission
+% lof.............. genereate list of figures
+% lot.............. generate list of tables
+% noproblem.. do not show task
+% notoc......... do not generate table of contents
+% twoside...... two sided layout
+
+\usepackage{enumitem}
+
+
+\author{Raveen Venkit Raj Reddy\\Elizaveta Soldatova\\Nils Hoffman\\Lucas Waclawczyk}
+\title{Tractography Based Visual Diagnostics}
+\betreuer{Prof. Dr. Stefan Gumhold, Nishant Kumar}
+\bibfiles{literature-example.bib}
+\problem{
+	The aim of the project is to perform visual diagnosis of healthy and diseased subjects based on fiber tracts derived from diffusion MRI (dMRI) volume of the human brain. The goals are:
+	\begin{enumerate}[label=\arabic*)]
+		\item Literature review on state-of-the-art methods and toolboxes related to dMRI volume pre-processing, fiber orientation estimation, fiber tracking and tract segmentation.
+		\item Pre-processing of the dMRI datasets to eliminate noise and prevalent distortion/motion correction.
+		\item Study and implementation of fiber orientation estimation at a single voxel resolution of dMRI volume.
+		\item Study and implementation of fiber tracking and segmentation methods using Region of interest (ROI).
+		\item Qualitative and Quantitative evaluation of tracking and segmentation methods for healthy and diseased subjects.
+	\end{enumerate}
+
+	Note: The team consists of 4 members with 3 participants for CMS-VC-TEA.
+	
+	Optional goals:
+	\begin{itemize}
+		\item[a)] Study and implement a VR user interface to perform immersive evaluation of fiber tract results.
+	\end{itemize}
+}
+\copyrighterklaerung{If the author used ressources from third parties (texts, images, code) he or she should state the consents of the copyright owners here or cite the given general conditions (e.g. CC/(L)GPL/BSD copyright notices)}
+\abstracten{abstract text english}
+
+\begin{document}
+\chapter{A chapter}
+\section{A section of the chapter}
+\begin{figure}[htbp]
+	\centering
+		\includegraphics{test.png}
+	\caption{This is a caption}
+	\label{fig:label-of-fig}
+\end{figure}
+
+
+\subsection{A subsection: Some Math}
+
+\[
+\sum_{i=1}^{100}x_i
+\]
+more text here
+\subsubsection{Referencing literature}
+This is how you can cite some literature from "`literature-example.bib"': \cite{kochbuch}.
+\paragraph{a code listing}
+
+
+\begin{figure}[htbp]
+\begin{lstlisting}[frame=trbl]
+//comment
+for(int i = 0; i < 100;i++)
+{
+test(i);
+}
+\end{lstlisting}
+\end{figure}
+
+text
+
+\cite*{}
+\end{document}
