@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.5.2)  20 MAY 2020 20:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.5.2)  24 MAY 2020 00:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -528,35 +528,202 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box40
 \enit@count@id=\count119
 \enitdp@description=\count120
-) (./report.aux)
+)
+(/usr/share/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip77
+\bibsep=\skip78
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count121
+)
+(/usr/share/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2019/09/28 v4.43 (NLCT)
+
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks28
+\XKV@tempa@toks=\toks29
+)
+\XKV@depth=\count122
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+Package: mfirstuc 2017/11/14 v2.06 (NLCT)
+
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count123
+)
+\@glsmfirst=\toks30
+\@glsmrest=\toks31
+)
+(/usr/share/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(/usr/share/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2019/09/27 v2.32 (NLCT)
+
+(/usr/share/texmf-dist/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count124
+)
+(/usr/share/texmf-dist/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2019/09/27 v2.32 (NLCT)
+
+(/usr/share/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/usr/share/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count125
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count126
+\FP@xia=\count127
+\FP@xib=\count128
+\FP@xfa=\count129
+\FP@xfb=\count130
+\FP@rega=\count131
+\FP@regb=\count132
+\FP@regs=\count133
+\FP@times=\count134
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count135
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks32
+\@dtl@tmpcount=\count136
+\dtl@tmplength=\skip79
+\dtl@sortresult=\count137
+\@dtl@numgrpsepcount=\count138
+\@dtl@datatype=\count139
+\dtl@codeA=\count140
+\dtl@codeB=\count141
+\@dtl@foreach@level=\count142
+)
+(/usr/share/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-307.sty
+Package: glossaries-compatible-307 2019/09/28 v4.43 (NLCT)
+)
+\gls@level=\count143
+\@gls@tmpb=\toks33
+\gls@tmplen=\skip80
+\glskeylisttok=\toks34
+\glslabeltok=\toks35
+\glsshorttok=\toks36
+\glslongtok=\toks37
+(/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
+Package: glossary-hypernav 2019/09/28 v4.43 (NLCT)
+)
+(/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
+Package: glossary-list 2019/09/28 v4.43 (NLCT)
+\glslistdottedwidth=\skip81
+)
+(/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
+Package: glossary-long 2019/09/28 v4.43 (NLCT)
+\glsdescwidth=\skip82
+\glspagelistwidth=\skip83
+)
+(/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
+Package: glossary-super 2019/09/28 v4.43 (NLCT)
+
+(/usr/share/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count144
+\ST@wd=\dimen127
+\ST@rightskip=\skip84
+\ST@leftskip=\skip85
+\ST@parfillskip=\skip86
+\ST@pageleft=\dimen128
+\ST@headht=\dimen129
+\ST@tailht=\dimen130
+\ST@pagesofar=\dimen131
+\ST@pboxht=\dimen132
+\ST@lineht=\dimen133
+\ST@stretchht=\dimen134
+\ST@prevht=\dimen135
+\ST@toadd=\dimen136
+\ST@dimen=\dimen137
+\ST@pbox=\box41
+))
+(/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
+Package: glossary-tree 2019/09/28 v4.43 (NLCT)
+\glstreeindent=\skip87
+))
+\glswrite=\write4
+\glo@gloss_terms@file=\write5
+\openout5 = `report.tdn'.
+
+Package glossaries Info: Writing glossary file report.tdn on input line 25.
+\glo@gloss_acr@file=\write6
+\openout6 = `report.stn'.
+
+Package glossaries Info: Writing glossary file report.stn on input line 25.
+
+(./gloss_terms.tex) (./gloss_acr.tex) (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count121
-\scratchdimen=\dimen127
-\scratchbox=\box41
-\nofMPsegments=\count122
-\nofMParguments=\count123
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count124
-\MPscratchDim=\dimen128
-\MPnumerator=\count125
-\makeMPintoPDFobject=\count126
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count145
+\scratchdimen=\dimen138
+\scratchbox=\box42
+\nofMPsegments=\count146
+\nofMParguments=\count147
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count148
+\MPscratchDim=\dimen139
+\MPnumerator=\count149
+\makeMPintoPDFobject=\count150
+\everyMPtoPDFconversion=\toks39
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -608,36 +775,38 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package scrbase Info: activating english \contentsname on input line 46.
-Package scrbase Info: activating english \listfigurename on input line 46.
-Package scrbase Info: activating english \listtablename on input line 46.
-\c@lstlisting=\count127
-LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
+Package scrbase Info: activating english \contentsname on input line 55.
+Package scrbase Info: activating english \listfigurename on input line 55.
+Package scrbase Info: activating english \listtablename on input line 55.
+\c@lstlisting=\count151
+LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
+\openout4 = `report.ist'.
+
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 46
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 55
 .
  (/usr/share/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 46.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 55.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 46.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 55.
 
-Overfull \hbox (2.94008pt too wide) in paragraph at lines 46--46
+Overfull \hbox (2.94008pt too wide) in paragraph at lines 55--55
 []\T1/ptm/m/n/10.95 Literature re-view on state-of-the-art meth-ods and tool-bo
 xes re-lated to dMRI vol-ume pre-processing,
  []
@@ -647,7 +816,7 @@ xes re-lated to dMRI vol-ume pre-processing,
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
 
  []
 
@@ -655,12 +824,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--46
 
 
 ] (./report.toc)
-\tf@toc=\write4
-\openout4 = `report.toc'.
+\tf@toc=\write7
+\openout7 = `report.toc'.
 
  [1
 
 
+
+] [2
 
 ]
 chapter 1.
@@ -679,30 +850,51 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              a package that still implements the
 (scrreprt)              deprecated \float@addtolist interface .
 
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 6
+0.
+(/usr/share/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 60.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 48.
-<test.png, id=18, 421.575pt x 301.125pt>
-File: test.png Graphic file (type png)
-<use test.png>
-Package pdftex.def Info: test.png  used on input line 51.
-(pdftex.def)             Requested size: 421.57396pt x 301.12425pt.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 57.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 64.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 64.
+ [3
 
-LaTeX Warning: Citation `kochbuch' on page 2 undefined on input line 64.
+]
+chapter 2.
+(./report.tld [4
 
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 69
-.
-(/usr/share/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [2
+]
+
+Package glossaries Warning: Glossary entry `amyhyp' has not been defined on inp
+ut line 9.
 
 
- <./test.png>] [3]
-No file report.bbl.
-[4
+Package glossaries Warning: Glossary entry `amyhyp' has not been defined on inp
+ut line 9.
+
+
+Overfull \hbox (0.95105pt too wide) in paragraph at lines 13--15
+[]\T1/ptm/m/n/10.95 ''The Con-nec-tome Co-or-di-na-tion Fa-cil-ity (CCF) houses
+ and dis-
+ []
+
+
+Overfull \hbox (6.91872pt too wide) in paragraph at lines 18--18
+[]\T1/ptm/m/n/10.95 method for an-a-lyz-ing DWI data us-ing con-straint spher-i
+-cal de-con-vo-lu-tion; ''fixel''
+ []
+
+) (./report.sot [5
+
+]) (./report.bbl [6
+
+]
+chapter without number
+) [7
+
+] [8
 
 
 
@@ -710,35 +902,31 @@ No file report.bbl.
 
 
 
-] (./report.aux)
-
-LaTeX Warning: There were undefined references.
-
- )
+] (./report.aux) )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 46 (\begingroup)
+### semi simple group (level 1) entered at line 55 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 8722 strings out of 492167
- 140278 string characters out of 6131559
- 496788 words of memory out of 5000000
- 12943 multiletter control sequences out of 15000+600000
- 54680 words of font info for 83 fonts, out of 8000000 for 9000
+ 12975 strings out of 492167
+ 205733 string characters out of 6131559
+ 495788 words of memory out of 5000000
+ 17076 multiletter control sequences out of 15000+600000
+ 50249 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 52i,11n,76p,10073b,2464s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,11n,76p,10073b,1885s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr8.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/t
-exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type
-1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-</usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (7 pages, 98064 bytes).
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
+are/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts
+/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8
+a.pfb>
+Output written on report.pdf (11 pages, 89462 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 73 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -17,12 +17,21 @@
 % twoside...... two sided layout
 
 \usepackage{enumitem}
+\usepackage[square,numbers]{natbib}
 
+\usepackage[nomain]{glossaries}
+\newglossary[tlg]{gloss_terms}{tld}{tdn}{Glossary}
+\newglossary[slg]{gloss_acr}{sot}{stn}{Acronyms}
+\makeglossaries
+\loadglsentries[gloss_terms]{gloss_terms}
+\loadglsentries[gloss_acr]{gloss_acr}
+
+\newcommand{\oldcite}[1]{\cite{#1}}
+\newcommand{\newcite}[1]{\textsuperscript{\cite{#1}}}
 
 \author{Raveen Venkit Raj Reddy\\Elizaveta Soldatova\\Nils Hoffman\\Lucas Waclawczyk}
 \title{Tractography Based Visual Diagnostics}
 \betreuer{Prof. Dr. Stefan Gumhold, Nishant Kumar}
-\bibfiles{literature-example.bib}
 \problem{
 	The aim of the project is to perform visual diagnosis of healthy and diseased subjects based on fiber tracts derived from diffusion MRI (dMRI) volume of the human brain. The goals are:
 	\begin{enumerate}[label=\arabic*)]
@@ -44,38 +53,36 @@
 \abstracten{abstract text english}
 
 \begin{document}
-\chapter{A chapter}
-\section{A section of the chapter}
-\begin{figure}[htbp]
-	\centering
-		\includegraphics{test.png}
-	\caption{This is a caption}
-	\label{fig:label-of-fig}
-\end{figure}
+	\glsaddall
+	\chapter{Introduction}
+	TODO
+	\begin{itemize}
+		\item Check references of section about ad
+		\item review glossary. any "tba"?
+	\end{itemize}
 
+	\section{\acrfull{ad}}
+	One example for a potential application of white matter tractography is the analysis of \acrfull{ad}. Symptoms of this disease include short-term memory disorder and disorientation in space and time in its early stages, as well as long-term memory disorder, disorientation in situation and person, and semantic paraphrases later on. 
+	
+	The most common doctrine currently relies on the \emph{\gls{AMYHYP}}, naming the accumulation of amyloid-$ \beta $ peptide A$ \beta $42 in structures of the hippocampus, forebrain and neocortex as cause of the disease. The reasons for the amyloid-$ \beta $ peptide's neurotoxicity are still being discussed\newcite{ad_haass}. 
+	
+	Meanwhile, recent studies using PET imaging have contradicted this hypothesis, evaluating this accumulation to be a common process in the elderly while having only weak correlations with clinical disease syndromes. Instead, it has been suggested to view \acrshort{ad} as a large-scale network disconnection syndrome, associated with said protein accumulation as well as cortical atrophy, and functional disconnections between brain regions. Some success in analyzing this network disconnection has been made with a novel approach called \newcite{ad}.
+	
+	\chapter{Evaluation}
+	In 2009, the \acrfull{nih}, a part of the U.S. Department of Health and Human Services\newcite{nih_about}, launched the \acrfull{hcp} in ''an ambitious effort to map the neural pathways that underlie human brain function.''\newcite{nih_connectome}. Its goal is to advance the capabilities of both imaging and analysis of human brain connections, hoping this will accelerate the progress of human connectomics. 
+	
+	\acrshort{hcp} is carried out by two research consortia:
+	\begin{itemize}
+		\item \emph{Harvard/MGH-UCAL}: Massachusetts General Hospital/Harvard University and the University of California Los Angeles (UCLA), focuses on creating a new magnetic resonance imager optimized for measuring connectome data
+		\item \emph{WU/Minn}: Washington University in St. Louis/University of Minnesota/Oxford University, focuses on mapping macroscopic brain circuitry and researching its connection to behavior. That includes data acquisition from 1200 subjects with a magnetic induction of $ 3T $ and from 200 subjects at $ 7T $\newcite{wuminn}. 
+	\end{itemize}
+	Main directives of both consortia also include the improvement of existing and development of new imaging protocols and processing techniques. The collected data and software are made publicly available, the process of which is managed by the \Gls{CCF}. 
+	
+	First results published only few years after the initiation of \acrshort{hcp} inspired further projects, i.e. the \Gls{LHCP} acquiring imaging data across all ages split into four subprojects (prenatal, 0-5, 6-21, and 36-100+ years), as well as several projects focusing on connectomes related to diseases, such as \acrshort{ad}.
 
-\subsection{A subsection: Some Math}
-
-\[
-\sum_{i=1}^{100}x_i
-\]
-more text here
-\subsubsection{Referencing literature}
-This is how you can cite some literature from "`literature-example.bib"': \cite{kochbuch}.
-\paragraph{a code listing}
-
-
-\begin{figure}[htbp]
-\begin{lstlisting}[frame=trbl]
-//comment
-for(int i = 0; i < 100;i++)
-{
-test(i);
-}
-\end{lstlisting}
-\end{figure}
-
-text
-
-\cite*{}
+	\printglossary[type=gloss_terms]
+	\printglossary[type=gloss_acr]
+	\nocite{*}
+	\bibliographystyle{unsrt}
+	\bibliography{lib}
 \end{document}

@@ -1,0 +1,35 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{MRD{\etalchar{+}}18}
+
+\bibitem[ESB{\etalchar{+}}13]{wuminn}
+David C.~Van Essen, Stephen~M. Smith, Deanna~M. Barch, Timothy~E.J. Berens,
+  Essa Yacoub, and Kamil Ugurbil.
+\newblock The wu-minn human connectome project: An overview.
+\newblock {\em NeuroImage}, 80:62 -- 79, 2013.
+\newblock Mapping the Connectome.
+
+\bibitem[Haa09]{ad_haass}
+Christian Haass.
+\newblock Alzheimer - mechanismen und therapeutische anseatze. warum wir im
+  alter dement werden.
+\newblock {\em Biologie in unserer Zeit}, 39(2):92--100, 2009.
+
+\bibitem[MRD{\etalchar{+}}18]{ad}
+Remika Mito, David Raffelt, Thijs Dhollander, David~N Vaughan, J-Donald
+  Tournier, Olivier Salvado, Amy Brodtmann, Christopher~C Rowe, Victor~L
+  Villemagne, and Alan Connelly.
+\newblock Fibre-specific white matter reductions in alzheimer's disease and
+  mild cognitive impairment.
+\newblock {\em Brain}, 141(3):888--902, 01 2018.
+
+\bibitem[niha]{nih_connectome}
+Connectome programs.
+
+\bibitem[nihb]{nih_about}
+Who we are.
+
+\bibitem[UpA]{ccf}
+UpAndRunning.
+\newblock Connectome - homepage.
+
+\end{thebibliography}

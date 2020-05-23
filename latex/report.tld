@@ -1,0 +1,33 @@
+\glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
+\begin{theglossary}\glossaryheader
+\glsgroupheading{A}\relax \glsresetentrylist %
+\glossentry{AD}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{1\delimR 3}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{5\delimN 6}}}%
+\glossentry{amyhyp}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2\delimN 3}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{5}}}\glsgroupskip
+\glsgroupheading{C}\relax \glsresetentrylist %
+\glossentry{CCF}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{4}}}%
+\glossentry{CSD}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}\glsgroupskip
+\glsgroupheading{F}\relax \glsresetentrylist %
+\glossentry{FBA}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}\glsgroupskip
+\glsgroupheading{H}\relax \glsresetentrylist %
+\glossentry{HCP}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{4}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{6}}}\glsgroupskip
+\glsgroupheading{L}\relax \glsresetentrylist %
+\glossentry{LHCP}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{4}}}\glsgroupskip
+\glsgroupheading{N}\relax \glsresetentrylist %
+\glossentry{NIH}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{4}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{6}}}%
+\end{theglossary}\glossarypostamble
