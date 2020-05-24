@@ -1,6 +1,21 @@
 \newcommand{\etalchar}[1]{$^{#1}$}
 \begin{thebibliography}{MRD{\etalchar{+}}18}
 
+\bibitem[ANS{\etalchar{+}}08]{aizenstein08}
+Howard~Jay Aizenstein, Robert~D. Nebes, Judith~A. Saxton, Julie~C. Price,
+  Chester~A. Mathis, Nicholas~D. Tsopelas, Scott~K. Ziolko, Jeffrey~A. James,
+  Beth~E. Snitz, Patricia~R. Houck, Wenzhu Bi, Ann~D. Cohen, Brian~J. Lopresti,
+  Steven~T. DeKosky, Edythe~M. Halligan, and William~E. Klunk.
+\newblock {Frequent Amyloid Deposition Without Significant Cognitive Impairment
+  Among the Elderly}.
+\newblock {\em Archives of Neurology}, 65(11):1509--1517, 11 2008.
+
+\bibitem[CPT16]{canter16}
+Rebecca~G Canter, Jay Penney, and Li-Huei Tsai.
+\newblock The road to restoring neural circuits for the treatment of
+  alzheimer's disease.
+\newblock {\em Nature}, 539(7628):187--196, November 2016.
+
 \bibitem[ESB{\etalchar{+}}13]{wuminn}
 David C.~Van Essen, Stephen~M. Smith, Deanna~M. Barch, Timothy~E.J. Berens,
   Essa Yacoub, and Kamil Ugurbil.
@@ -13,6 +28,19 @@ Christian Haass.
 \newblock Alzheimer - mechanismen und therapeutische anseatze. warum wir im
   alter dement werden.
 \newblock {\em Biologie in unserer Zeit}, 39(2):92--100, 2009.
+
+\bibitem[LVS{\etalchar{+}}11]{leyton11}
+Cristian Leyton, Victor Villemagne, Sharon Savage, Kerryn Pike, Kirrie Ballard,
+  Olivier Piguet, James Burrell, Christopher Rowe, R~John, and Hodges.
+\newblock Subtypes of progressive aphasia: application of the international
+  consensus criteria and validation using $\beta$-amyloid imaging.
+\newblock {\em Brain}, 01 2011.
+
+\bibitem[MLS{\etalchar{+}}06]{mintun06}
+M.~A. Mintun, G.~N. LaRossa, Y.~I. Sheline, C.~S. Dence, S.~Y. Lee, R.~H. Mach,
+  W.~E. Klunk, C.~A. Mathis, S.~T. DeKosky, and J.~C. Morris.
+\newblock [11c]pib in a nondemented population.
+\newblock {\em Neurology}, 67(3):446--452, 2006.
 
 \bibitem[MRD{\etalchar{+}}18]{ad}
 Remika Mito, David Raffelt, Thijs Dhollander, David~N Vaughan, J-Donald
@@ -27,6 +55,38 @@ Connectome programs.
 
 \bibitem[nihb]{nih_about}
 Who we are.
+
+\bibitem[RER{\etalchar{+}}10]{rowe10}
+Christopher~C. Rowe, Kathryn~A. Ellis, Miroslava Rimajova, Pierrick Bourgeat,
+  Kerryn~E. Pike, Gareth Jones, Jurgen Fripp, Henri Tochon-Danguy, Laurence
+  Morandeau, Graeme O'Keefe, Roger Price, Parnesh Raniga, Peter Robins, Oscar
+  Acosta, Nat Lenzo, Cassandra Szoeke, Olivier Salvado, Richard Head, Ralph
+  Martins, Colin~L. Masters, David Ames, and Victor~L. Villemagne.
+\newblock Amyloid imaging results from the australian imaging, biomarkers and
+  lifestyle (aibl) study of aging.
+\newblock {\em Neurobiology of Aging}, 31(8):1275 -- 1283, 2010.
+\newblock Alzheimer's Disease Neuroimaging Initiative (ADNI) Studies.
+
+\bibitem[RJF{\etalchar{+}}08]{rabinovici08}
+Gil~D. Rabinovici, William~J. Jagust, Ansgar~J. Furst, Jennifer~M. Ogar,
+  Caroline~A. Racine, Elizabeth~C. Mormino, James~P. O'Neil, Rayhan~A. Lal,
+  Nina~F. Dronkers, Bruce~L. Miller, and Maria~Luisa Gorno-Tempini.
+\newblock A$\beta$ amyloid and glucose metabolism in three variants of primary
+  progressive aphasia.
+\newblock {\em Annals of Neurology}, 64(4):388--401, 2008.
+
+\bibitem[RKD{\etalchar{+}}12]{rodrigue12}
+K.M. Rodrigue, K.M. Kennedy, M.D. Devous, J.R. Rieck, A.C. Hebrank,
+  R.~Diaz-Arrastia, D.~Mathews, and D.C. Park.
+\newblock $\beta$-amyloid burden in healthy aging.
+\newblock {\em Neurology}, 78(6):387--395, 2012.
+
+\bibitem[RTS{\etalchar{+}}17]{raffelt17}
+David~A. Raffelt, J.-Donald Tournier, Robert~E. Smith, David~N. Vaughan, Graeme
+  Jackson, Gerard~R. Ridgway, and Alan Connelly.
+\newblock Investigating white matter fibre density and morphology using
+  fixel-based analysis.
+\newblock {\em NeuroImage}, 144:58 -- 73, 2017.
 
 \bibitem[UpA]{ccf}
 UpAndRunning.

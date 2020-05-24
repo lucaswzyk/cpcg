@@ -18,6 +18,7 @@
 
 \usepackage{enumitem}
 \usepackage[square,numbers]{natbib}
+\usepackage{graphicx}
 
 \usepackage[nomain]{glossaries}
 \newglossary[tlg]{gloss_terms}{tld}{tdn}{Glossary}
@@ -38,7 +39,7 @@
 		\item Literature review on state-of-the-art methods and toolboxes related to dMRI volume pre-processing, fiber orientation estimation, fiber tracking and tract segmentation.
 		\item Pre-processing of the dMRI datasets to eliminate noise and prevalent distortion/motion correction.
 		\item Study and implementation of fiber orientation estimation at a single voxel resolution of dMRI volume.
-		\item Study and implementation of fiber tracking and segmentation methods using Region of interest (ROI).
+		\item Study and implementation of fib￼er tracking and segmentation methods using Region of interest (ROI).
 		\item Qualitative and Quantitative evaluation of tracking and segmentation methods for healthy and diseased subjects.
 	\end{enumerate}
 
@@ -59,14 +60,39 @@
 	\begin{itemize}
 		\item Check references of section about ad
 		\item review glossary. any "tba"?
+		\item emph for acrfull
+		\item definition of MRI, dMRI
+		\item explanation dti, fa
 	\end{itemize}
 
 	\section{\acrfull{ad}}
-	One example for a potential application of white matter tractography is the analysis of \acrfull{ad}. Symptoms of this disease include short-term memory disorder and disorientation in space and time in its early stages, as well as long-term memory disorder, disorientation in situation and person, and semantic paraphrases later on. 
+	One example for an application of \acrshort{dmri} is the analysis of \emph{\acrfull{ad}}. Symptoms of this disease include short-term memory disorder and disorientation in space and time in its early stages, as well as long-term memory disorder, disorientation in situation and person, and semantic paraphrases later on. 
 	
 	The most common doctrine currently relies on the \emph{\gls{AMYHYP}}, naming the accumulation of amyloid-$ \beta $ peptide A$ \beta $42 in structures of the hippocampus, forebrain and neocortex as cause of the disease. The reasons for the amyloid-$ \beta $ peptide's neurotoxicity are still being discussed\newcite{ad_haass}. 
 	
-	Meanwhile, recent studies using PET imaging have contradicted this hypothesis, evaluating this accumulation to be a common process in the elderly while having only weak correlations with clinical disease syndromes. Instead, it has been suggested to view \acrshort{ad} as a large-scale network disconnection syndrome, associated with said protein accumulation as well as cortical atrophy, and functional disconnections between brain regions. Some success in analyzing this network disconnection has been made with a novel approach called \newcite{ad}.
+	Meanwhile, recent studies using PET imaging have contradicted this hypothesis, evaluating the accumulation of A$ \beta $42 to be a common process in the elderly\newcite{mintun06}\newcite{aizenstein08} while showing only weak correlations with clinical disease syndromes\newcite{rabinovici08}\newcite{rowe10}\newcite{leyton11}\newcite{rodrigue12}. Instead, it has been suggested to view \acrshort{ad} as a large-scale network disconnection syndrome, associated with said protein accumulation as well as cortical atrophy, and functional disconnections between brain regions\newcite{canter16}. 
+	
+	Some success in analyzing this network disconnection has been made with a novel approach called \emph{\acrfull{fba}}\newcite{raffelt17}. The following paragraphs refer to a study analyzing the differences between white matter structures of \acrshort{ad} patients and healthy individuals\newcite{ad} using \acrshort{fba}. 
+	
+	Figure \ref{fig:ad01} shows a partial human tractography. The marked area in subfigure B includes the centrum semiovale where several fibre tracts cross, some of which could specifically be shown to exhibit significant white matter degeneration in \acrshort{ad} patients, whereas others were relatively preserved. 
+	
+	Subfigure C demonstrates how this would manifest in a single voxel for \acrshort{dti} versus for \acrshort{csd}. For \acrshort{dti}, the degeneration of white matter along a single axis (here: Forel axis) causes a misleading increase in \acrshort{fa}. \acrshort{csd} however, can resolve the diffusion axes and depicts the white matter degeneration specifically along the Forel axis.
+	
+	Figure \ref{fig:ad02} summarizes the analysis results of the cited study for both \acrshort{ad} patients and subjects with mild cognitive impairment (MCI, second aspect of the study). On the left, the mean fibre density and cross-section (diamonds) and 95\% confidence intervals (bars) of several tracts of interest for both groups are depicted as significantly below the control mean derived from a group of healthy subjects. The bar colors correspond to the colors of the tracts of interest shown in glass brain representations on the right. Please refer to the original paper for more explicit information.
+	
+	This shows that \acrshort{mri} together with certain analysis techniques can be useful for gaining a better understanding of neuro-degenerative diseases like \acrshort{ad}.
+	
+	\begin{figure}
+		\includegraphics[width=\linewidth]{../pics/ad01_crop}
+		\caption[Significant voxel-wise increases in fractional anisotropy in Alzheimer's disease compared to healthy controls]{Significant voxel-wise increases in fractional anisotropy in Alzheimer's disease compared to healthy controls; from \cite{ad}}
+		\label{fig:ad01}
+	\end{figure}
+
+	\begin{figure}
+		\includegraphics[width=\linewidth]{../pics/ad02}
+		\caption[Significant tracts in MCI from tract-of-interest analysis comparing diagnostic groups]{Significant tracts in MCI from tract-of-interest analysis comparing diagnostic groups; from \cite{ad}}
+		\label{fig:ad02}
+	\end{figure}
 	
 	\chapter{Evaluation}
 	In 2009, the \acrfull{nih}, a part of the U.S. Department of Health and Human Services\newcite{nih_about}, launched the \acrfull{hcp} in ''an ambitious effort to map the neural pathways that underlie human brain function.''\newcite{nih_connectome}. Its goal is to advance the capabilities of both imaging and analysis of human brain connections, hoping this will accelerate the progress of human connectomics. 

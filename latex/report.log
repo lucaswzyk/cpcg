@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.5.2)  24 MAY 2020 00:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.5.2)  24 MAY 2020 15:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -689,27 +689,27 @@ Package: glossary-tree 2019/09/28 v4.43 (NLCT)
 \glo@gloss_terms@file=\write5
 \openout5 = `report.tdn'.
 
-Package glossaries Info: Writing glossary file report.tdn on input line 25.
+Package glossaries Info: Writing glossary file report.tdn on input line 26.
 \glo@gloss_acr@file=\write6
 \openout6 = `report.stn'.
 
-Package glossaries Info: Writing glossary file report.stn on input line 25.
+Package glossaries Info: Writing glossary file report.stn on input line 26.
 
 (./gloss_terms.tex) (./gloss_acr.tex) (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -775,17 +775,17 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package scrbase Info: activating english \contentsname on input line 55.
-Package scrbase Info: activating english \listfigurename on input line 55.
-Package scrbase Info: activating english \listtablename on input line 55.
+Package scrbase Info: activating english \contentsname on input line 56.
+Package scrbase Info: activating english \listfigurename on input line 56.
+Package scrbase Info: activating english \listtablename on input line 56.
 \c@lstlisting=\count151
-LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 56.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -796,17 +796,17 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 55
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 56
 .
  (/usr/share/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 55.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 56.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 55.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 56.
 
-Overfull \hbox (2.94008pt too wide) in paragraph at lines 55--55
+Overfull \hbox (2.94008pt too wide) in paragraph at lines 56--56
 []\T1/ptm/m/n/10.95 Literature re-view on state-of-the-art meth-ods and tool-bo
 xes re-lated to dMRI vol-ume pre-processing,
  []
@@ -816,7 +816,7 @@ xes re-lated to dMRI vol-ume pre-processing,
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
 
  []
 
@@ -851,50 +851,38 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              deprecated \float@addtolist interface .
 
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 6
-0.
+1.
 (/usr/share/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 60.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 61.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 64.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 68.
  [3
 
 ]
+<../pics/ad01_crop.png, id=28, 963.6pt x 332.74312pt>
+File: ../pics/ad01_crop.png Graphic file (type png)
+<use ../pics/ad01_crop.png>
+Package pdftex.def Info: ../pics/ad01_crop.png  used on input line 86.
+(pdftex.def)             Requested size: 455.24408pt x 157.20163pt.
+<../pics/ad02.png, id=29, 1284.8pt x 844.15375pt>
+File: ../pics/ad02.png Graphic file (type png)
+<use ../pics/ad02.png>
+Package pdftex.def Info: ../pics/ad02.png  used on input line 92.
+(pdftex.def)             Requested size: 455.24408pt x 299.10349pt.
+ [4 <../pics/ad01_crop.png (PNG copy)>] [5 <../pics/ad02.png>]
 chapter 2.
-(./report.tld [4
-
-]
-
-Package glossaries Warning: Glossary entry `amyhyp' has not been defined on inp
-ut line 9.
-
-
-Package glossaries Warning: Glossary entry `amyhyp' has not been defined on inp
-ut line 9.
-
-
-Overfull \hbox (0.95105pt too wide) in paragraph at lines 13--15
-[]\T1/ptm/m/n/10.95 ''The Con-nec-tome Co-or-di-na-tion Fa-cil-ity (CCF) houses
- and dis-
- []
-
-
-Overfull \hbox (6.91872pt too wide) in paragraph at lines 18--18
-[]\T1/ptm/m/n/10.95 method for an-a-lyz-ing DWI data us-ing con-straint spher-i
--cal de-con-vo-lu-tion; ''fixel''
- []
-
-) (./report.sot [5
-
-]) (./report.bbl [6
+No file report.tld.
+No file report.sot.
+(./report.bbl [6
 
 ]
 chapter without number
-) [7
+[7
 
-] [8
+]) [8] [9
 
 
 
@@ -905,16 +893,16 @@ chapter without number
 ] (./report.aux) )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 55 (\begingroup)
+### semi simple group (level 1) entered at line 56 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 12975 strings out of 492167
- 205733 string characters out of 6131559
- 495788 words of memory out of 5000000
- 17076 multiletter control sequences out of 15000+600000
+ 13316 strings out of 492167
+ 210751 string characters out of 6131559
+ 496788 words of memory out of 5000000
+ 17417 multiletter control sequences out of 15000+600000
  50249 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,11n,76p,10073b,1885s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,11n,76p,10073b,1868s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public
@@ -923,10 +911,10 @@ ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public
 are/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8
 a.pfb>
-Output written on report.pdf (11 pages, 89462 bytes).
+Output written on report.pdf (12 pages, 508733 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 78 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
