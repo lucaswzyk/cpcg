@@ -65,7 +65,35 @@
 		\item explanation dti, fa
 	\end{itemize}
 
-	\section{\acrfull{ad}}
+	\section{\Gls{MRI}}
+	Since invasive examinations always come with a certain risk to the examined subject, and mostly include physical injury of some kind (e. g. puncture by needle, irritation of mucous membrane), non-invasive methods are more advantageous to many situations. Some applications like mapping the skeletal or brain structure are even only made possible without serious harm to the subject by non-invasive methods. Commonly known examples include electrocardiography, ultrasound scans and \emph{\acrfull{mri}}.
+	
+	The latter makes use of the existence of vast amounts of hydrogen atoms in biological tissue, more specifically of the respective single-proton nuclei. It will be explained here as an imaging method for the human brain, but can be useful for many more applications. The following paragraphs use explanations from the book \emph{How does MRI work?: an introduction to the physics and function of magnetic resonance imaging}\newcite{mri}. 
+	
+	When a proton is exposed to a magnetic field  of strength $ B_{0} $, its spin axis aligns with that field. This is, however, not an instantaneous change, but a gradual one. In fact, the spin axis ''wobbles'' around the magnetic field lines, which is called precession, and asymptotically decreases its angle of misalignment. The frequency at which the spin axis rotates around the field is called \emph{precession frequency}. 
+	
+	The biggest part of an \acrshort{mri} device is a magnet responsible for causing a magnetic field with an induction of several $ T $. This is multiple 10,000 times stronger than that of the earth's magnetic field. At optimal conditions, this magnet continuously stays active. That is also reason metal has to be kept at a safe distance from the device.
+	
+	The angle of misalignment between spin axis of a proton and the surrounding magnetic field can be increased by introducing energy into the system. This is done in form of an electromagnetic wave (''90° pulse'') of a frequency equal to the precession frequency of the proton that is applied with sufficient temporal length and strength to tilt the spin axis onto a plane perpendicular to the magnetic field.  In a setting with several protons, the same wave increases the alignment of the phases of precession of all spins.
+	
+	As the excitation by the wave ends, the spins start realigning with the magnetic field. This is called \emph{T1 relaxation} and can be measured as the increase in magnetic field strength along the base  field resulting from said realignment. 
+	
+	By the same laws that are of use in an electrical generator, the precession of spins perpendicular to the base field induces a voltage in a receiver coil. This voltage is the \emph{magnetic resonance signal}. After excitation, the precession phases lose coherence which causes the magnetic resonance signal to decrease. This is called \emph{T2 relaxation}.
+	
+	The realignment of spin axes with the base field also causes the magnetic resonance signal to decrease. However, T2 relaxation occurs at scales of $ 100-300ms $ whereas T1 relaxation occurs over $ 0.5 - 5s $. Therefor T2 relaxation has a much higher influence on the decrease of the magnetic resonance signal and can therefor be reliably inferred from the same. 
+	
+	In \emph{\acrfull{dmri}}, three additional excitations are applied:
+	\begin{enumerate}
+		\item A field-gradient pulse is sent through the examined tissue, temporarily reducing the strength of the magnetic field along the base field direction, differently per location. Since the precession frequency is proportional to the underlying magnetic field strength, differences in field strength along the base field direction cause the precession phases to drift apart relative to that axis. Protons in the same plane perpendicular to the base field direction will still be in the same phase, but the phase of protons in different such planes will differ.
+		\item An 180° pulse is then applied to invert the sense of rotation of the precession of each proton. 
+		\item Finally, another field-gradient pulse of the same polarity and intensity as the first one is used to realign the phases of precession.
+	\end{enumerate}
+
+	If a proton has stayed at a given location throughout this entire process, its phase will realign perfectly. If, however, it has changed locations, e.g. by diffusion, the different field strength variations from the first and third pulse will not result in a perfect phase realignment. 
+	
+	As the strength of the magnetic resonance signal is proportional to the alignment of phases in a given voxel, after this procedure, voxels will give a high signal if the contained protons did not move far from their original location because their phases will be well aligned. On the other hand, if a lot of diffusion happened in a voxel between the first and third pulse, this will become apparent in a low signal, respectively. The resulting value of a voxel can therefor interpreted as a measure of diffusivity along the base field direction in that voxel. 
+	
+	\section{\Gls{AD}}
 	One example for an application of \acrshort{dmri} is the analysis of \emph{\acrfull{ad}}. Symptoms of this disease include short-term memory disorder and disorientation in space and time in its early stages, as well as long-term memory disorder, disorientation in situation and person, and semantic paraphrases later on. 
 	
 	The most common doctrine currently relies on the \emph{\gls{AMYHYP}}, naming the accumulation of amyloid-$ \beta $ peptide A$ \beta $42 in structures of the hippocampus, forebrain and neocortex as cause of the disease. The reasons for the amyloid-$ \beta $ peptide's neurotoxicity are still being discussed\newcite{ad_haass}. 

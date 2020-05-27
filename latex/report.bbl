@@ -92,4 +92,10 @@ David~A. Raffelt, J.-Donald Tournier, Robert~E. Smith, David~N. Vaughan, Graeme
 UpAndRunning.
 \newblock Connectome - homepage.
 
+\bibitem[WDM08]{mri}
+Dominik Weishaupt, Köchli~Victor D., and Borut Marincek.
+\newblock {\em How does MRI work?: an introduction to the physics and function
+  of magnetic resonance imaging}.
+\newblock Springer, 2008.
+
 \end{thebibliography}

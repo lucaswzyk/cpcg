@@ -1,4 +1,5 @@
 \contentsline {chapter}{\numberline {1}Introduction}{3}% 
-\contentsline {section}{\numberline {1.1}\acrfull {ad}}{3}% 
-\contentsline {chapter}{\numberline {2}Evaluation}{6}% 
-\contentsline {chapter}{\nonumberline Bibliography}{7}% 
+\contentsline {section}{\numberline {1.1}\Gls {MRI}}{3}% 
+\contentsline {section}{\numberline {1.2}\Gls {AD}}{5}% 
+\contentsline {chapter}{\numberline {2}Evaluation}{8}% 
+\contentsline {chapter}{\nonumberline Bibliography}{9}% 

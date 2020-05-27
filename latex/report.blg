@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2019/Arch Linux)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: report.aux
 The style file: alpha.bst
-Illegal, another \bibstyle command---line 38 of file report.aux
+Illegal, another \bibstyle command---line 40 of file report.aux
  : \bibstyle
  :          {unsrt}
 I'm skipping whatever remains of this command
@@ -13,45 +13,45 @@ Warning--to sort, need author or key in nih_about
 Warning--to sort, need author or key in nih_connectome
 Name 10 in "Leyton, Cristian and Villemagne, Victor and Savage, Sharon and Pike, Kerryn and Ballard, Kirrie and Piguet, Olivier and Burrell, James and Rowe, Christopher and John, R and Hodges," has a comma at the end for entry leyton11
 while executing---line 1250 of file alpha.bst
-You've used 14 entries,
+You've used 15 entries,
             2543 wiz_defined-function locations,
-            647 strings with 8022 characters,
-and the built_in function-call counts, 7714 in all, are:
-= -- 676
-> -- 633
+            651 strings with 8186 characters,
+and the built_in function-call counts, 8080 in all, are:
+= -- 708
+> -- 658
 < -- 2
-+ -- 243
-- -- 240
-* -- 735
-:= -- 1348
-add.period$ -- 39
-call.type$ -- 14
-change.case$ -- 161
-chr.to.int$ -- 13
-cite$ -- 18
-duplicate$ -- 185
-empty$ -- 403
-format.name$ -- 245
-if$ -- 1459
++ -- 252
+- -- 249
+* -- 760
+:= -- 1413
+add.period$ -- 42
+call.type$ -- 15
+change.case$ -- 167
+chr.to.int$ -- 14
+cite$ -- 19
+duplicate$ -- 200
+empty$ -- 428
+format.name$ -- 255
+if$ -- 1531
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 11
-newline$ -- 71
-num.names$ -- 36
-pop$ -- 147
+missing$ -- 13
+newline$ -- 76
+num.names$ -- 39
+pop$ -- 157
 preamble$ -- 1
-purify$ -- 175
+purify$ -- 183
 quote$ -- 0
-skip$ -- 154
+skip$ -- 165
 stack$ -- 0
-substring$ -- 335
-swap$ -- 14
+substring$ -- 342
+swap$ -- 15
 text.length$ -- 2
 text.prefix$ -- 2
 top$ -- 0
-type$ -- 112
+type$ -- 116
 warning$ -- 2
-while$ -- 46
-width$ -- 18
-write$ -- 172
+while$ -- 49
+width$ -- 19
+write$ -- 184
 (There were 3 error messages)

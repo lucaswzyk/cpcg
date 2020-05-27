@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.5.2)  24 MAY 2020 15:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.5.2)  28 MAY 2020 00:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -861,28 +861,28 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 68.
  [3
 
-]
-<../pics/ad01_crop.png, id=28, 963.6pt x 332.74312pt>
+] [4] [5]
+<../pics/ad01_crop.png, id=37, 963.6pt x 332.74312pt>
 File: ../pics/ad01_crop.png Graphic file (type png)
 <use ../pics/ad01_crop.png>
-Package pdftex.def Info: ../pics/ad01_crop.png  used on input line 86.
+Package pdftex.def Info: ../pics/ad01_crop.png  used on input line 114.
 (pdftex.def)             Requested size: 455.24408pt x 157.20163pt.
-<../pics/ad02.png, id=29, 1284.8pt x 844.15375pt>
+<../pics/ad02.png, id=38, 1284.8pt x 844.15375pt>
 File: ../pics/ad02.png Graphic file (type png)
 <use ../pics/ad02.png>
-Package pdftex.def Info: ../pics/ad02.png  used on input line 92.
+Package pdftex.def Info: ../pics/ad02.png  used on input line 120.
 (pdftex.def)             Requested size: 455.24408pt x 299.10349pt.
- [4 <../pics/ad01_crop.png (PNG copy)>] [5 <../pics/ad02.png>]
+ [6 <../pics/ad01_crop.png (PNG copy)>] [7 <../pics/ad02.png>]
 chapter 2.
 No file report.tld.
 No file report.sot.
-(./report.bbl [6
+(./report.bbl [8
 
 ]
 chapter without number
-[7
+[9
 
-]) [8] [9
+]) [10] [11
 
 
 
@@ -896,25 +896,25 @@ chapter without number
 ### semi simple group (level 1) entered at line 56 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 13316 strings out of 492167
- 210751 string characters out of 6131559
+ 13321 strings out of 492167
+ 210813 string characters out of 6131559
  496788 words of memory out of 5000000
- 17417 multiletter control sequences out of 15000+600000
+ 17422 multiletter control sequences out of 15000+600000
  50249 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,11n,76p,10073b,1868s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,12n,76p,10073b,1871s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
-are/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts
-/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8
-a.pfb>
-Output written on report.pdf (12 pages, 508733 bytes).
+are/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/
+fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/time
+s/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on report.pdf (14 pages, 525376 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 89 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
