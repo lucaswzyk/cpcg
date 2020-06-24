@@ -1,6 +1,9 @@
 \newcommand{\etalchar}[1]{$^{#1}$}
 \begin{thebibliography}{MRD{\etalchar{+}}18}
 
+\bibitem[adn]{adni_about}
+Adni website / about.
+
 \bibitem[ANS{\etalchar{+}}08]{aizenstein08}
 Howard~Jay Aizenstein, Robert~D. Nebes, Judith~A. Saxton, Julie~C. Price,
   Chester~A. Mathis, Nicholas~D. Tsopelas, Scott~K. Ziolko, Jeffrey~A. James,
@@ -21,6 +24,14 @@ David C.~Van Essen, Stephen~M. Smith, Deanna~M. Barch, Timothy~E.J. Berens,
   Essa Yacoub, and Kamil Ugurbil.
 \newblock The wu-minn human connectome project: An overview.
 \newblock {\em NeuroImage}, 80:62 -- 79, 2013.
+\newblock Mapping the Connectome.
+
+\bibitem[GSW{\etalchar{+}}13]{hcp_mpp}
+Matthew~F. Glasser, Stamatios~N. Sotiropoulos, J.~Anthony Wilson, Timothy~S.
+  Coalson, Bruce Fischl, Jesper~L. Andersson, Junqian Xu, Saad Jbabdi, Matthew
+  Webster, Jonathan~R. Polimeni, David C.~[Van Essen], and Mark Jenkinson.
+\newblock The minimal preprocessing pipelines for the human connectome project.
+\newblock {\em NeuroImage}, 80:105 -- 124, 2013.
 \newblock Mapping the Connectome.
 
 \bibitem[Haa09]{ad_haass}
@@ -51,10 +62,10 @@ Remika Mito, David Raffelt, Thijs Dhollander, David~N Vaughan, J-Donald
 \newblock {\em Brain}, 141(3):888--902, 01 2018.
 
 \bibitem[niha]{nih_connectome}
-Connectome programs.
+Nih website / connectome programs.
 
 \bibitem[nihb]{nih_about}
-Who we are.
+Nih website / who we are.
 
 \bibitem[RER{\etalchar{+}}10]{rowe10}
 Christopher~C. Rowe, Kathryn~A. Ellis, Miroslava Rimajova, Pierrick Bourgeat,

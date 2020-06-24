@@ -1,8 +1,8 @@
-This is BibTeX, Version 0.99d (TeX Live 2019/Arch Linux)
+This is BibTeX, Version 0.99d (TeX Live 2020/Arch Linux)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: report.aux
 The style file: alpha.bst
-Illegal, another \bibstyle command---line 40 of file report.aux
+Illegal, another \bibstyle command---line 50 of file report.aux
  : \bibstyle
  :          {unsrt}
 I'm skipping whatever remains of this command
@@ -11,47 +11,48 @@ Name 10 in "Leyton, Cristian and Villemagne, Victor and Savage, Sharon and Pike,
 while executing---line 1185 of file alpha.bst
 Warning--to sort, need author or key in nih_about
 Warning--to sort, need author or key in nih_connectome
+Warning--to sort, need author or key in adni_about
 Name 10 in "Leyton, Cristian and Villemagne, Victor and Savage, Sharon and Pike, Kerryn and Ballard, Kirrie and Piguet, Olivier and Burrell, James and Rowe, Christopher and John, R and Hodges," has a comma at the end for entry leyton11
 while executing---line 1250 of file alpha.bst
-You've used 15 entries,
+You've used 17 entries,
             2543 wiz_defined-function locations,
-            651 strings with 8186 characters,
-and the built_in function-call counts, 8080 in all, are:
-= -- 708
-> -- 658
+            658 strings with 8625 characters,
+and the built_in function-call counts, 9023 in all, are:
+= -- 791
+> -- 729
 < -- 2
-+ -- 252
-- -- 249
-* -- 760
-:= -- 1413
-add.period$ -- 42
-call.type$ -- 15
-change.case$ -- 167
-chr.to.int$ -- 14
-cite$ -- 19
-duplicate$ -- 200
-empty$ -- 428
-format.name$ -- 255
-if$ -- 1531
++ -- 280
+- -- 276
+* -- 844
+:= -- 1566
+add.period$ -- 47
+call.type$ -- 17
+change.case$ -- 187
+chr.to.int$ -- 16
+cite$ -- 23
+duplicate$ -- 224
+empty$ -- 486
+format.name$ -- 282
+if$ -- 1716
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 13
-newline$ -- 76
-num.names$ -- 39
-pop$ -- 157
+missing$ -- 14
+newline$ -- 85
+num.names$ -- 42
+pop$ -- 179
 preamble$ -- 1
-purify$ -- 183
+purify$ -- 205
 quote$ -- 0
-skip$ -- 165
+skip$ -- 188
 stack$ -- 0
-substring$ -- 342
-swap$ -- 15
+substring$ -- 385
+swap$ -- 17
 text.length$ -- 2
 text.prefix$ -- 2
 top$ -- 0
-type$ -- 116
-warning$ -- 2
-while$ -- 49
-width$ -- 19
-write$ -- 184
+type$ -- 132
+warning$ -- 3
+while$ -- 53
+width$ -- 21
+write$ -- 206
 (There were 3 error messages)

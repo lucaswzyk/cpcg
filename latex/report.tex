@@ -63,6 +63,7 @@
 		\item emph for acrfull
 		\item definition of MRI, dMRI
 		\item explanation dti, fa
+		\item mention tractseg
 	\end{itemize}
 
 	\section{\Gls{MRI}}
@@ -74,7 +75,7 @@
 	
 	The biggest part of an \acrshort{mri} device is a magnet responsible for causing a magnetic field with an induction of several $ T $. This is multiple 10,000 times stronger than that of the earth's magnetic field. At optimal conditions, this magnet continuously stays active. That is also reason metal has to be kept at a safe distance from the device.
 	
-	The angle of misalignment between spin axis of a proton and the surrounding magnetic field can be increased by introducing energy into the system. This is done in form of an electromagnetic wave (''90° pulse'') of a frequency equal to the precession frequency of the proton that is applied with sufficient temporal length and strength to tilt the spin axis onto a plane perpendicular to the magnetic field.  In a setting with several protons, the same wave increases the alignment of the phases of precession of all spins.
+	The angle of misalignment between spin axis of a proton and the surrounding magnetic field can be increased by introducing energy into the system. This is done in form of an electromagnetic wave \mbox{(''90\textdegree{} pulse'')} of a frequency equal to the precession frequency of the proton that is applied with sufficient temporal length and strength to tilt the spin axis onto a plane perpendicular to the magnetic field.  In a setting with several protons, the same wave increases the alignment of the phases of precession of all spins.
 	
 	As the excitation by the wave ends, the spins start realigning with the magnetic field. This is called \emph{T1 relaxation} and can be measured as the increase in magnetic field strength along the base  field resulting from said realignment. 
 	
@@ -85,7 +86,7 @@
 	In \emph{\acrfull{dmri}}, three additional excitations are applied:
 	\begin{enumerate}
 		\item A field-gradient pulse is sent through the examined tissue, temporarily reducing the strength of the magnetic field along the base field direction, differently per location. Since the precession frequency is proportional to the underlying magnetic field strength, differences in field strength along the base field direction cause the precession phases to drift apart relative to that axis. Protons in the same plane perpendicular to the base field direction will still be in the same phase, but the phase of protons in different such planes will differ.
-		\item An 180° pulse is then applied to invert the sense of rotation of the precession of each proton. 
+		\item An 180\textdegree{} pulse is then applied to invert the sense of rotation of the precession of each proton. 
 		\item Finally, another field-gradient pulse of the same polarity and intensity as the first one is used to realign the phases of precession.
 	\end{enumerate}
 
@@ -121,9 +122,11 @@
 		\caption[Significant tracts in MCI from tract-of-interest analysis comparing diagnostic groups]{Significant tracts in MCI from tract-of-interest analysis comparing diagnostic groups; from \cite{ad}}
 		\label{fig:ad02}
 	\end{figure}
+
+	\chapter{Pre-processing} \label{ch:pp}
 	
 	\chapter{Evaluation}
-	In 2009, the \acrfull{nih}, a part of the U.S. Department of Health and Human Services\newcite{nih_about}, launched the \acrfull{hcp} in ''an ambitious effort to map the neural pathways that underlie human brain function.''\newcite{nih_connectome}. Its goal is to advance the capabilities of both imaging and analysis of human brain connections, hoping this will accelerate the progress of human connectomics. 
+	In 2009, the \acrfull{nih}, a part of the U.S. Department of Health and Human Services\newcite{nih_about}, launched the \acrfull{hcp} in ''an ambitious effort to map the neural pathways that underlie human brain function.''\newcite{nih_connectome} Its goal is to advance the capabilities of both imaging and analysis of human brain connections, hoping this will accelerate the progress of human connectomics. 
 	
 	\acrshort{hcp} is carried out by two research consortia:
 	\begin{itemize}
@@ -133,6 +136,19 @@
 	Main directives of both consortia also include the improvement of existing and development of new imaging protocols and processing techniques. The collected data and software are made publicly available, the process of which is managed by the \Gls{CCF}. 
 	
 	First results published only few years after the initiation of \acrshort{hcp} inspired further projects, i.e. the \Gls{LHCP} acquiring imaging data across all ages split into four subprojects (prenatal, 0-5, 6-21, and 36-100+ years), as well as several projects focusing on connectomes related to diseases, such as \acrshort{ad}.
+	
+	Another project relevant for our research is \acrfull{adni}. Started in 2004 as a public-private partnership, it has made major contributions to \acrshort{ad} research. \acrshort{adni} involves multiple research sites in the United States of America and Canada. Its overarching goals are:
+	\begin{itemize}
+		\item To detect \acrshort{ad} at the earliest possible stage (pre-demential) and identify ways to track the diseases progression with biomarkers.
+		\item To support advances in \acrshort{ad} intervention, prevention, and treatment through the application of new diagnostic methods at the earliest possible stages (when intervention may be most effective).
+		\item To continually administer \acrshort{adni}s innovative data-access policy, which provides all data without embargo to all scientists in the world.
+	\end{itemize}
+	The study started its third stage in 2016, focused on relating the biomarkers mentioned above.
+	
+	We will use data from both \acrshort{hcp} and \acrshort{adni} to evaluate the algorithms described in this report. 
+	
+	\subsection{Pre-processing}
+	\acrshort{hcp} offers both unprocessed \acrshort{dmri} volumes, and the respective data after application of their minimal pre-processing pipeline\newcite{hcp_mpp}. We will apply our pre-processing pipeline described in \ref{ch:pp} to these unprocessed volumes and evaluate our result in terms of the difference with the processed \acrshort{hcp} data.
 
 	\printglossary[type=gloss_terms]
 	\printglossary[type=gloss_acr]

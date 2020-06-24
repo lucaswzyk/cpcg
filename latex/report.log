@@ -1,39 +1,35 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.5.2)  28 MAY 2020 00:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.6.20)  24 JUN 2020 23:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **report.tex
 (./report.tex
-LaTeX2e <2019-10-01> patch level 1
-(./cgvpub.cls
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-03> (./cgvpub.cls
 Document Class: cgvpub 
 (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks14
-\inpenc@posthook=\toks15
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
 
 (/usr/share/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2018/08/11 v1.3c Input encoding file
 ))
 (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
-
-(/usr/share/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-))
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
 (/usr/share/texmf-dist/tex/latex/psnfss/times.sty
-Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
 )
 (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
+\KV@toks@=\toks17
 )
 (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2019/10/08 v1.3c Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -46,27 +42,25 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen102
-\Gin@req@width=\dimen103
+\Gin@req@height=\dimen134
+\Gin@req@width=\dimen135
 )
 (/usr/share/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip10
+\Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 (/usr/share/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
-Package: fancyvrb 2019/10/22
-
-Style option: `fancyvrb' v3.3 <2019/10/22> (tvz)
-\FV@CodeLineNo=\count80
-\FV@InFile=\read1
-\FV@TabBox=\box27
-\c@FancyVerbLine=\count81
-\FV@StepNumber=\count82
+Package: fancyvrb 2020/05/03 v3.6 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count167
+\FV@InFile=\read2
+\FV@TabBox=\box45
+\c@FancyVerbLine=\count168
+\FV@StepNumber=\count169
 \FV@OutFile=\write3
 )
 (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2019/04/01 v2.17c AMS math features
-\@mathmargin=\skip41
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip47
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -74,53 +68,53 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks17
-\ex@=\dimen104
+\@emptytoks=\toks18
+\ex@=\dimen136
 ))
 (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen105
+\pmbraise@=\dimen137
 )
 (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count83
+\inf@bad=\count170
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count84
-\leftroot@=\count85
+\uproot@=\count171
+\leftroot@=\count172
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count86
-\DOTSCASE@=\count87
+\classnum@=\count173
+\DOTSCASE@=\count174
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box28
-\strutbox@=\box29
-\big@size=\dimen106
+\Mathstrutbox@=\box46
+\strutbox@=\box47
+\big@size=\dimen138
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count88
-\c@MaxMatrixCols=\count89
-\dotsspace@=\muskip11
-\c@parentequation=\count90
-\dspbrk@lvl=\count91
-\tag@help=\toks18
-\row@=\count92
-\column@=\count93
-\maxfields@=\count94
-\andhelp@=\toks19
-\eqnshift@=\dimen107
-\alignsep@=\dimen108
-\tagshift@=\dimen109
-\tagwidth@=\dimen110
-\totwidth@=\dimen111
-\lineht@=\dimen112
-\@envbody=\toks20
-\multlinegap=\skip42
-\multlinetaggap=\skip43
-\mathdisplay@stack=\toks21
-LaTeX Info: Redefining \[ on input line 2855.
-LaTeX Info: Redefining \] on input line 2856.
+\macc@depth=\count175
+\c@MaxMatrixCols=\count176
+\dotsspace@=\muskip17
+\c@parentequation=\count177
+\dspbrk@lvl=\count178
+\tag@help=\toks19
+\row@=\count179
+\column@=\count180
+\maxfields@=\count181
+\andhelp@=\toks20
+\eqnshift@=\dimen139
+\alignsep@=\dimen140
+\tagshift@=\dimen141
+\tagwidth@=\dimen142
+\totwidth@=\dimen143
+\lineht@=\dimen144
+\@envbody=\toks21
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
 )
 (/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
@@ -134,7 +128,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
 (/usr/share/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
 
 (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
@@ -143,29 +137,28 @@ Package color Info: Driver file: pdftex.def on input line 147.
 )
 (/usr/share/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
-\@enLab=\toks22
+\@enLab=\toks23
 )
 (/usr/share/texmf-dist/tex/latex/koma-script/scrreprt.cls
-Document Class: scrreprt 2019/10/12 v3.27 KOMA-Script document class (report)
+Document Class: scrreprt 2020/04/19 v3.30 KOMA-Script document class (report)
 (/usr/share/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2019/10/12 v3.27 KOMA-Script package (KOMA-Script-dependent b
+Package: scrkbase 2020/04/19 v3.30 KOMA-Script package (KOMA-Script-dependent b
 asics and keyval usage)
 
 (/usr/share/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2019/10/12 v3.27 KOMA-Script package (KOMA-Script-independent 
+Package: scrbase 2020/04/19 v3.30 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
 (/usr/share/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2019/10/12 v3.27 KOMA-Script package (loading files)
+Package: scrlfile 2020/04/19 v3.30 KOMA-Script package (loading files)
 )))
 (/usr/share/texmf-dist/tex/latex/koma-script/tocbasic.sty
-Package: tocbasic 2019/10/12 v3.27 KOMA-Script package (handling toc-files)
-\scr@dte@tocline@numberwidth=\skip44
-\scr@dte@tocline@numbox=\box30
+Package: tocbasic 2020/04/19 v3.30 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip50
+\scr@dte@tocline@numbox=\box48
 )
-Package tocbasic Info: omitting babel extension for `toc'
-(tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `toc' on input line 137.
+Package tocbasic Info: babel extension for `toc' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 137.
 
 
 Class scrreprt Warning: You've used obsolete option `cleardoubleempty'.
@@ -328,21 +321,21 @@ Class scrreprt Warning: deprecated option `enabledeprecatedfontcommands'.
 (scrreprt)              is not recommended.
 
 Class scrreprt Info: File `scrsize11pt.clo' used to setup font sizes on input l
-ine 2417.
+ine 2424.
 (/usr/share/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
-File: scrsize11pt.clo 2019/10/12 v3.27 KOMA-Script font size class option (11pt
+File: scrsize11pt.clo 2020/04/19 v3.30 KOMA-Script font size class option (11pt
 )
 )
 (/usr/share/texmf-dist/tex/latex/koma-script/typearea.sty
-Package: typearea 2019/10/12 v3.27 KOMA-Script package (type area)
-\ta@bcor=\skip45
-\ta@div=\count95
-\ta@hblk=\skip46
-\ta@vblk=\skip47
-\ta@temp=\skip48
-\footheight=\skip49
+Package: typearea 2020/04/19 v3.30 KOMA-Script package (type area)
+\ta@bcor=\skip51
+\ta@div=\count182
+\ta@hblk=\skip52
+\ta@vblk=\skip53
+\ta@temp=\skip54
+\footheight=\skip55
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 17
-16.
+38.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -363,102 +356,102 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 11.0pt
 (typearea)              \footskip       = 47.6pt
 (typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 1716.
+(typearea)              on input line 1738.
 )
-\c@part=\count96
-\c@chapter=\count97
-\c@section=\count98
-\c@subsection=\count99
-\c@subsubsection=\count100
-\c@paragraph=\count101
-\c@subparagraph=\count102
-\scr@dte@chapter@maxnumwidth=\skip50
+\c@part=\count183
+\c@chapter=\count184
+\c@section=\count185
+\c@subsection=\count186
+\c@subsubsection=\count187
+\c@paragraph=\count188
+\c@subparagraph=\count189
+\scr@dte@chapter@maxnumwidth=\skip56
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\chapter on input line 5525.
-\scr@dte@section@maxnumwidth=\skip51
+(scrreprt)           for `\chapter on input line 5588.
+\scr@dte@section@maxnumwidth=\skip57
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\section on input line 5535.
+(scrreprt)           for `\section on input line 5598.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\section on input line 5535.
-\scr@dte@part@maxnumwidth=\skip52
+(scrreprt)           for `\section on input line 5598.
+\scr@dte@part@maxnumwidth=\skip58
 Class scrreprt Info: using compatibility default `afterindent=true'
-(scrreprt)           for `\part on input line 5544.
-\scr@dte@subsection@maxnumwidth=\skip53
+(scrreprt)           for `\part on input line 5607.
+\scr@dte@subsection@maxnumwidth=\skip59
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\subsection on input line 5554.
+(scrreprt)           for `\subsection on input line 5617.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\subsection on input line 5554.
-\scr@dte@subsubsection@maxnumwidth=\skip54
+(scrreprt)           for `\subsection on input line 5617.
+\scr@dte@subsubsection@maxnumwidth=\skip60
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\subsubsection on input line 5564.
+(scrreprt)           for `\subsubsection on input line 5627.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\subsubsection on input line 5564.
-\scr@dte@paragraph@maxnumwidth=\skip55
+(scrreprt)           for `\subsubsection on input line 5627.
+\scr@dte@paragraph@maxnumwidth=\skip61
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\paragraph on input line 5574.
+(scrreprt)           for `\paragraph on input line 5637.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\paragraph on input line 5574.
-\scr@dte@subparagraph@maxnumwidth=\skip56
+(scrreprt)           for `\paragraph on input line 5637.
+\scr@dte@subparagraph@maxnumwidth=\skip62
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\subparagraph on input line 5584.
+(scrreprt)           for `\subparagraph on input line 5647.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\subparagraph on input line 5584.
-\abovecaptionskip=\skip57
-\belowcaptionskip=\skip58
-\c@pti@nb@sid@b@x=\box31
-Package tocbasic Info: omitting babel extension for `lof'
-(tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lof' on input line 6808.
-\scr@dte@figure@maxnumwidth=\skip59
-\c@figure=\count103
-Package tocbasic Info: omitting babel extension for `lot'
-(tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lot' on input line 6825.
-\scr@dte@table@maxnumwidth=\skip60
-\c@table=\count104
+(scrreprt)           for `\subparagraph on input line 5647.
+\abovecaptionskip=\skip63
+\belowcaptionskip=\skip64
+\c@pti@nb@sid@b@x=\box49
+Package tocbasic Info: babel extension for `lof' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 6883.
+
+\scr@dte@figure@maxnumwidth=\skip65
+\c@figure=\count190
+Package tocbasic Info: babel extension for `lot' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 6900.
+
+\scr@dte@table@maxnumwidth=\skip66
+\c@table=\count191
 Class scrreprt Info: Using old \@makefntext due to compatibility level
-(scrreprt)           less than 3.22 on input line 6981.
-Class scrreprt Info: Redefining `\numberline' on input line 6994.
-\bibindent=\dimen113
+(scrreprt)           less than 3.22 on input line 7056.
+Class scrreprt Info: Redefining `\numberline' on input line 7069.
+\bibindent=\dimen145
 )
 (/usr/share/texmf-dist/tex/latex/tools/tabularx.sty
-Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 
 (/usr/share/texmf-dist/tex/latex/tools/array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen114
-\ar@mcellbox=\box32
-\extrarowheight=\dimen115
-\NC@list=\toks23
-\extratabsurround=\skip61
-\backup@length=\skip62
-\ar@cellbox=\box33
+\col@sep=\dimen146
+\ar@mcellbox=\box50
+\extrarowheight=\dimen147
+\NC@list=\toks24
+\extratabsurround=\skip67
+\backup@length=\skip68
+\ar@cellbox=\box51
 )
-\TX@col@width=\dimen116
-\TX@old@table=\dimen117
-\TX@old@col=\dimen118
-\TX@target=\dimen119
-\TX@delta=\dimen120
-\TX@cols=\count105
-\TX@ftn=\toks24
+\TX@col@width=\dimen148
+\TX@old@table=\dimen149
+\TX@old@col=\dimen150
+\TX@target=\dimen151
+\TX@delta=\dimen152
+\TX@cols=\count192
+\TX@ftn=\toks25
 )
 (/usr/share/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2019/02/06 v4.12 Multi-page Table package (DPC)
-\LTleft=\skip63
-\LTright=\skip64
-\LTpre=\skip65
-\LTpost=\skip66
-\LTchunksize=\count106
-\LTcapwidth=\dimen121
-\LT@head=\box34
-\LT@firsthead=\box35
-\LT@foot=\box36
-\LT@lastfoot=\box37
-\LT@cols=\count107
-\LT@rows=\count108
-\c@LT@tables=\count109
-\c@LT@chunks=\count110
-\LT@p@ftn=\toks25
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip69
+\LTright=\skip70
+\LTpre=\skip71
+\LTpost=\skip72
+\LTchunksize=\count193
+\LTcapwidth=\dimen153
+\LT@head=\box52
+\LT@firsthead=\box53
+\LT@foot=\box54
+\LT@lastfoot=\box55
+\LT@cols=\count194
+\LT@rows=\count195
+\c@LT@tables=\count196
+\c@LT@chunks=\count197
+\LT@p@ftn=\toks26
 )
 Class scrreprt Info: longtable captions redefined on input line 377.
 
@@ -479,65 +472,65 @@ Class scrreprt Warning: Usage of package `fancyhdr' together
 (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip67
-\f@nch@O@elh=\skip68
-\f@nch@O@erh=\skip69
-\f@nch@O@olh=\skip70
-\f@nch@O@orh=\skip71
-\f@nch@O@elf=\skip72
-\f@nch@O@erf=\skip73
-\f@nch@O@olf=\skip74
-\f@nch@O@orf=\skip75
+\f@nch@headwidth=\skip73
+\f@nch@O@elh=\skip74
+\f@nch@O@erh=\skip75
+\f@nch@O@olh=\skip76
+\f@nch@O@orh=\skip77
+\f@nch@O@elf=\skip78
+\f@nch@O@erf=\skip79
+\f@nch@O@olf=\skip80
+\f@nch@O@orf=\skip81
 )
 (/usr/share/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count111
-\lst@gtempboxa=\box38
-\lst@token=\toks26
-\lst@length=\count112
-\lst@currlwidth=\dimen122
-\lst@column=\count113
-\lst@pos=\count114
-\lst@lostspace=\dimen123
-\lst@width=\dimen124
-\lst@newlines=\count115
-\lst@lineno=\count116
-\lst@maxwidth=\dimen125
+\lst@mode=\count198
+\lst@gtempboxa=\box56
+\lst@token=\toks27
+\lst@length=\count199
+\lst@currlwidth=\dimen154
+\lst@column=\count266
+\lst@pos=\count267
+\lst@lostspace=\dimen155
+\lst@width=\dimen156
+\lst@newlines=\count268
+\lst@lineno=\count269
+\lst@maxwidth=\dimen157
 
 (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
-\c@lstnumber=\count117
-\lst@skipnumbers=\count118
-\lst@framebox=\box39
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count270
+\lst@skipnumbers=\count271
+\lst@framebox=\box57
 )
 (/usr/share/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2019/09/10 1.8c listings configuration
+File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
-Package: listings 2019/09/10 1.8c (Carsten Heinz)
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
 (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2019/09/10 1.8c listings language file
+File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 ))
 (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip76
-\enit@outerparindent=\dimen126
-\enit@toks=\toks27
-\enit@inbox=\box40
-\enit@count@id=\count119
-\enitdp@description=\count120
+\labelindent=\skip82
+\enit@outerparindent=\dimen158
+\enit@toks=\toks28
+\enit@inbox=\box58
+\enit@count@id=\count272
+\enitdp@description=\count273
 )
 (/usr/share/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip77
-\bibsep=\skip78
+\bibhang=\skip83
+\bibsep=\skip84
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count121
+\c@NAT@ctr=\count274
 )
 (/usr/share/texmf-dist/tex/latex/glossaries/base/glossaries.sty
-Package: glossaries 2019/09/28 v4.43 (NLCT)
+Package: glossaries 2020/03/19 v4.46 (NLCT)
 
 (/usr/share/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
@@ -547,10 +540,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks28
-\XKV@tempa@toks=\toks29
+\XKV@toks=\toks29
+\XKV@tempa@toks=\toks30
 )
-\XKV@depth=\count122
+\XKV@depth=\count275
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
@@ -558,10 +551,10 @@ Package: mfirstuc 2017/11/14 v2.06 (NLCT)
 
 (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count123
+\etb@tempcnta=\count276
 )
-\@glsmfirst=\toks30
-\@glsmrest=\toks31
+\@glsmfirst=\toks31
+\@glsmrest=\toks32
 )
 (/usr/share/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
@@ -574,7 +567,7 @@ Package: datatool-base 2019/09/27 v2.32 (NLCT)
 
 (/usr/share/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count124
+\c@su@anzahl=\count277
 )
 (/usr/share/texmf-dist/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2019/09/27 v2.32 (NLCT)
@@ -585,19 +578,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/usr/share/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count125
+\actioncount=\count278
 )
 (/usr/share/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count126
-\FP@xia=\count127
-\FP@xib=\count128
-\FP@xfa=\count129
-\FP@xfb=\count130
-\FP@rega=\count131
-\FP@regb=\count132
-\FP@regs=\count133
-\FP@times=\count134
+\FP@xs=\count279
+\FP@xia=\count280
+\FP@xib=\count281
+\FP@xfa=\count282
+\FP@xfb=\count283
+\FP@rega=\count284
+\FP@regb=\count285
+\FP@regs=\count286
+\FP@times=\count287
 )
 (/usr/share/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -616,7 +609,7 @@ Package: fp-pas 1994/08/29
 )
 (/usr/share/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count135
+\FPseed=\count288
 )
 (/usr/share/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -627,149 +620,106 @@ Package: fp-upn 1996/10/21
 (/usr/share/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks32
-\@dtl@tmpcount=\count136
-\dtl@tmplength=\skip79
-\dtl@sortresult=\count137
-\@dtl@numgrpsepcount=\count138
-\@dtl@datatype=\count139
-\dtl@codeA=\count140
-\dtl@codeB=\count141
-\@dtl@foreach@level=\count142
+\@dtl@toks=\toks33
+\@dtl@tmpcount=\count289
+\dtl@tmplength=\skip85
+\dtl@sortresult=\count290
+\@dtl@numgrpsepcount=\count291
+\@dtl@datatype=\count292
+\dtl@codeA=\count293
+\dtl@codeB=\count294
+\@dtl@foreach@level=\count295
 )
 (/usr/share/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-307.sty
-Package: glossaries-compatible-307 2019/09/28 v4.43 (NLCT)
+Package: glossaries-compatible-307 2020/03/19 v4.46 (NLCT)
 )
-\gls@level=\count143
-\@gls@tmpb=\toks33
-\gls@tmplen=\skip80
-\glskeylisttok=\toks34
-\glslabeltok=\toks35
-\glsshorttok=\toks36
-\glslongtok=\toks37
+\gls@level=\count296
+\@gls@tmpb=\toks34
+\gls@tmplen=\skip86
+\glskeylisttok=\toks35
+\glslabeltok=\toks36
+\glsshorttok=\toks37
+\glslongtok=\toks38
 (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
-Package: glossary-hypernav 2019/09/28 v4.43 (NLCT)
+Package: glossary-hypernav 2020/03/19 v4.46 (NLCT)
 )
 (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
-Package: glossary-list 2019/09/28 v4.43 (NLCT)
-\glslistdottedwidth=\skip81
+Package: glossary-list 2020/03/19 v4.46 (NLCT)
+\glslistdottedwidth=\skip87
 )
 (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
-Package: glossary-long 2019/09/28 v4.43 (NLCT)
-\glsdescwidth=\skip82
-\glspagelistwidth=\skip83
+Package: glossary-long 2020/03/19 v4.46 (NLCT)
+\glsdescwidth=\skip88
+\glspagelistwidth=\skip89
 )
 (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
-Package: glossary-super 2019/09/28 v4.43 (NLCT)
+Package: glossary-super 2020/03/19 v4.46 (NLCT)
 
 (/usr/share/texmf-dist/tex/latex/supertabular/supertabular.sty
-Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count144
-\ST@wd=\dimen127
-\ST@rightskip=\skip84
-\ST@leftskip=\skip85
-\ST@parfillskip=\skip86
-\ST@pageleft=\dimen128
-\ST@headht=\dimen129
-\ST@tailht=\dimen130
-\ST@pagesofar=\dimen131
-\ST@pboxht=\dimen132
-\ST@lineht=\dimen133
-\ST@stretchht=\dimen134
-\ST@prevht=\dimen135
-\ST@toadd=\dimen136
-\ST@dimen=\dimen137
-\ST@pbox=\box41
+Package: supertabular 2020/02/02 v4.1g the supertabular environment
+\c@tracingst=\count297
+\ST@wd=\dimen159
+\ST@rightskip=\skip90
+\ST@leftskip=\skip91
+\ST@parfillskip=\skip92
+\ST@pageleft=\dimen160
+\ST@headht=\dimen161
+\ST@tailht=\dimen162
+\ST@pagesofar=\dimen163
+\ST@pboxht=\dimen164
+\ST@lineht=\dimen165
+\ST@prevht=\dimen166
+\ST@toadd=\dimen167
+\ST@dimen=\dimen168
+\ST@pbox=\box59
 ))
 (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
-Package: glossary-tree 2019/09/28 v4.43 (NLCT)
-\glstreeindent=\skip87
+Package: glossary-tree 2020/03/19 v4.46 (NLCT)
+\glstreeindent=\skip93
 ))
 \glswrite=\write4
 \glo@gloss_terms@file=\write5
-\openout5 = `report.tdn'.
-
 Package glossaries Info: Writing glossary file report.tdn on input line 26.
 \glo@gloss_acr@file=\write6
-\openout6 = `report.stn'.
-
 Package glossaries Info: Writing glossary file report.stn on input line 26.
 
-(./gloss_terms.tex) (./gloss_acr.tex) (./report.aux)
-\openout1 = `report.aux'.
-
+(./gloss_terms.tex) (./gloss_acr.tex)
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count298
+\l__pdf_internal_box=\box60
+) (./report.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
 LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
 LaTeX Font Info:    ... okay on input line 56.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
 LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
 LaTeX Font Info:    ... okay on input line 56.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
 LaTeX Font Info:    ... okay on input line 56.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
 LaTeX Font Info:    ... okay on input line 56.
-
-(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count145
-\scratchdimen=\dimen138
-\scratchbox=\box42
-\nofMPsegments=\count146
-\nofMParguments=\count147
-\everyMPshowfont=\toks38
-\MPscratchCnt=\count148
-\MPscratchDim=\dimen139
-\MPnumerator=\count149
-\makeMPintoPDFobject=\count150
-\everyMPtoPDFconversion=\toks39
-) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-(/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-))))
-(/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
+\scratchcounter=\count299
+\scratchdimen=\dimen169
+\scratchbox=\box61
+\nofMPsegments=\count300
+\nofMParguments=\count301
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count302
+\MPscratchDim=\dimen170
+\MPnumerator=\count303
+\makeMPintoPDFobject=\count304
+\everyMPtoPDFconversion=\toks40
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
+85.
 
 (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
@@ -778,7 +728,7 @@ e
 Package scrbase Info: activating english \contentsname on input line 56.
 Package scrbase Info: activating english \listfigurename on input line 56.
 Package scrbase Info: activating english \listtablename on input line 56.
-\c@lstlisting=\count151
+\c@lstlisting=\count305
 LaTeX Font Info:    Trying to load font information for U+msa on input line 56.
 
 
@@ -792,26 +742,23 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-\openout4 = `report.ist'.
-
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Trying to load font information for T1+phv on input line 56
 .
  (/usr/share/texmf-dist/tex/latex/psnfss/t1phv.fd
-File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 56.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 56.
-
 Overfull \hbox (2.94008pt too wide) in paragraph at lines 56--56
 []\T1/ptm/m/n/10.95 Literature re-view on state-of-the-art meth-ods and tool-bo
 xes re-lated to dMRI vol-ume pre-processing,
  []
 
-[2
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
+6.
+(/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [2
 
 
 
@@ -825,8 +772,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--56
 
 ] (./report.toc)
 \tf@toc=\write7
-\openout7 = `report.toc'.
-
  [1
 
 
@@ -848,41 +793,37 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              Loading of package `scrhack' may help to
 (scrreprt)              avoid this warning, if you are using a
 (scrreprt)              a package that still implements the
-(scrreprt)              deprecated \float@addtolist interface .
+(scrreprt)              deprecated \float@addtolist interface.
 
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 6
-1.
-(/usr/share/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 61.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 68.
- [3
+[3
 
 ] [4] [5]
-<../pics/ad01_crop.png, id=37, 963.6pt x 332.74312pt>
+<../pics/ad01_crop.png, id=36, 963.6pt x 332.74312pt>
 File: ../pics/ad01_crop.png Graphic file (type png)
 <use ../pics/ad01_crop.png>
 Package pdftex.def Info: ../pics/ad01_crop.png  used on input line 114.
 (pdftex.def)             Requested size: 455.24408pt x 157.20163pt.
-<../pics/ad02.png, id=38, 1284.8pt x 844.15375pt>
+<../pics/ad02.png, id=37, 1284.8pt x 844.15375pt>
 File: ../pics/ad02.png Graphic file (type png)
 <use ../pics/ad02.png>
 Package pdftex.def Info: ../pics/ad02.png  used on input line 120.
 (pdftex.def)             Requested size: 455.24408pt x 299.10349pt.
  [6 <../pics/ad01_crop.png (PNG copy)>] [7 <../pics/ad02.png>]
 chapter 2.
-No file report.tld.
-No file report.sot.
-(./report.bbl [8
+[8
 
 ]
-chapter without number
+chapter 3.
 [9
 
-]) [10] [11
+]
+No file report.tld.
+No file report.sot.
+(./report.bbl [10]
+chapter without number
+[11
+
+]) [12] [13
 
 
 
@@ -896,25 +837,25 @@ chapter without number
 ### semi simple group (level 1) entered at line 56 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 13321 strings out of 492167
- 210813 string characters out of 6131559
- 496788 words of memory out of 5000000
- 17422 multiletter control sequences out of 15000+600000
- 50249 words of font info for 81 fonts, out of 8000000 for 9000
+ 13159 strings out of 480478
+ 209898 string characters out of 5905959
+ 673405 words of memory out of 5000000
+ 28951 multiletter control sequences out of 15000+600000
+ 581991 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,12n,76p,10073b,1871s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,12n,76p,10109b,1571s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
-are/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/
-fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/time
-s/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (14 pages, 525376 bytes).
+are/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts
+/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8
+a.pfb>
+Output written on report.pdf (16 pages, 520103 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 91 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
