@@ -1,0 +1,8 @@
+data/*
+!data/599469/
+data/599469/*
+!data/599469/roi_masks
+data/599469/roi_masks/*
+!data/599469/roi_masks/CG_left.trk
+!data/599469/roi_masks/CG_right.trk
+!data/599469/roi_masks/UF_right.trk
