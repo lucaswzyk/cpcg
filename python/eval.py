@@ -1,15 +1,28 @@
+from dipy.direction import peaks_from_model, PeaksAndMetrics
 from dipy.io.image import load_nifti, save_nifti
+from dipy.io import read_bvals_bvecs
+from dipy.core.gradients import gradient_table
+from dipy.io.peaks import save_peaks, load_peaks
+from dipy.io.stateful_tractogram import StatefulTractogram, Space
 from dipy.io.utils import get_reference_info
-from dipy.io.streamline import load_trk
+from dipy.io.streamline import load_trk, save_trk
 from dipy.align.reslice import reslice
+from dipy.data import default_sphere
+from dipy.segment.mask import median_otsu
+from dipy.tracking.local_tracking import LocalTracking
+from dipy.tracking.stopping_criterion import ThresholdStoppingCriterion
 
 from os import walk, remove
 from pathlib import Path
 import nibabel as nib
 import numpy as np
 import matplotlib.pyplot as plt
+from dipy.reconst.csdeconv import auto_response, ConstrainedSphericalDeconvModel
+from dipy.reconst.dti import TensorModel, fractional_anisotropy
+from dipy.tracking.streamlinespeed import Streamlines
+from dipy.tracking.utils import random_seeds_from_mask
 from mpl_toolkits.mplot3d import Axes3D
-
+from nibabel.streamlines import Tractogram
 
 data_path = ''
 img_path = ''
@@ -238,15 +251,15 @@ def d_st(mask1_file, mask2_file):
 
 def d_s(subject, base_dir, high_res=True):
     print('')
-    low_res_str = ''
+    res_str = ''
     if not high_res:
-        low_res_str = '_low_res'
+        res_str = '_low_res'
 
     res = 0
     for t in tracts:
-        mask1_file = data_path + base_dir + subject + '/T1w/Diffusion' + low_res_str + \
+        mask1_file = data_path + base_dir + subject + '/T1w/Diffusion' + res_str + \
                      '/tractseg_output/bundle_segmentations/' + t + '.nii.gz'
-        mask2_file = data_path + 'tractseg/' + subject + '/tracts/' + t + low_res_str + '.nii.gz'
+        mask2_file = data_path + 'tractseg/' + subject + '/tracts/' + t + res_str + '.nii.gz'
         res_t = d_st(mask1_file, mask2_file)
         print('\rResult for ' + t + ' was ' + str(res_t) + '                   ', end='')
         res += res_t
@@ -266,6 +279,134 @@ def calc_dices():
             f.write(line + '\n')
 
 
+def mu(mask_file, tract_file, ks, shuffle=False):
+    # load mask and ground truth
+    mbar_t, _ = load_nifti(tract_file)
+    mask, _ = load_nifti(mask_file)
+    if shuffle:
+        np.random.shuffle(mask)
+
+    mu_val = np.subtract(mask, mbar_t)
+    num_elem = np.sum(np.bitwise_or(mask != 0, mbar_t != 0))
+    result = []
+    for k in ks:
+        part_res = np.power(np.abs(mu_val), k)
+        part_res = np.sum(part_res) / num_elem
+        result.append(np.power(part_res, 1 / k))
+
+    return np.asarray(result)
+
+
+def calc_all_mus():
+    emin = 1
+    emax = 10
+    ks = np.power(2, range(emin, emax + 1))
+    ground_truth_path = data_path + 'tractseg/average/'
+    training_mus_hr = np.zeros(len(ks))
+    training_mus_lr = np.zeros(len(ks))
+    non_training_mus_hr = np.zeros(len(ks))
+    non_training_mus_lr = np.zeros(len(ks))
+    shuffle_mus = np.zeros(len(ks))
+
+    sel_tracts = tracts[:6]
+
+    for t in sel_tracts:
+        t_ave_hr = ground_truth_path + t + '.nii.gz'
+        t_ave_lr = ground_truth_path + t + '_low_res.nii.gz'
+        for p in training_paths:
+            print('\rTract ' + t + ', subject ' + p[-7:-1] + '         ', end='')
+            full_path_hr = p + 'T1w/Diffusion/tractseg_output/bundle_segmentations/' + t + '.nii.gz'
+            training_mus_hr += mu(full_path_hr, t_ave_hr, ks)
+            full_path_lr = p + 'T1w/Diffusion_low_res/tractseg_output/bundle_segmentations/' + t + '.nii.gz'
+            training_mus_lr += mu(full_path_lr, t_ave_lr, ks)
+        for p in non_training_paths:
+            print('\rTract ' + t + ', subject ' + p[-7:-1] + '         ', end='')
+            full_path_hr = p + 'T1w/Diffusion/tractseg_output/bundle_segmentations/' + t + '.nii.gz'
+            non_training_mus_hr += mu(full_path_hr, t_ave_hr, ks)
+            full_path_lr = p + 'T1w/Diffusion_low_res/tractseg_output/bundle_segmentations/' + t + '.nii.gz'
+            non_training_mus_lr += mu(full_path_lr, t_ave_lr, ks)
+        print('\rTract ' + t + ', shuffling...         ', end='')
+        shuffle_mus += mu(training_paths[0] + 'T1w/Diffusion/tractseg_output/bundle_segmentations/' + t + '.nii.gz',
+                          t_ave_hr, ks, shuffle=True)
+
+    training_mus_hr /= len(sel_tracts) * len(training_paths)
+    training_mus_lr /= len(sel_tracts) * len(training_paths)
+    non_training_mus_hr /= len(sel_tracts) * len(non_training_paths)
+    non_training_mus_lr /= len(sel_tracts) * len(non_training_paths)
+    shuffle_mus /= len(sel_tracts)
+    # plt.semilogx(ks, training_mus_hr, label='training hr')
+    # plt.semilogx(ks, training_mus_lr, label='training lr')
+    # plt.semilogx(ks, non_training_mus_hr, label='non-training hr')
+    # plt.semilogx(ks, non_training_mus_lr, label='non-training lr')
+    plt.semilogx(ks, shuffle_mus, label='shuffled')
+    plt.legend()
+    plt.show()
+
+
+def tracking(folder):
+    print('Tracking in ' + folder)
+    output_folder = folder + 'dipy_out/'
+
+    # make a folder to save new data into
+    try:
+        Path(output_folder).mkdir(parents=True, exist_ok=True)
+    except OSError:
+        print('Could not create output dir. Aborting...')
+        return
+
+    # load data
+    print('Loading data...')
+    img = nib.load(folder + 'data.nii.gz')
+    dmri = np.asarray(img.dataobj)
+    affine = img.affine
+    mask, _ = load_nifti(folder + 'nodif_brain_mask.nii.gz')
+    bvals, bvecs = read_bvals_bvecs(folder + 'bvals', folder + 'bvecs')
+    gtab = gradient_table(bvals, bvecs)
+
+    # extract peaksoutput_folder + 'peak_vals.nii.gz'
+    if Path(output_folder + 'peaks.pam5').exists():
+        peaks = load_peaks(output_folder + 'peaks.pam5')
+    else:
+        print('Extracting peaks...')
+        response, ration = auto_response(gtab, dmri, roi_radius=10, fa_thr=.7)
+        csd_model = ConstrainedSphericalDeconvModel(gtab, response)
+
+        peaks = peaks_from_model(model=csd_model,
+                                 data=dmri,
+                                 sphere=default_sphere,
+                                 relative_peak_threshold=.5,
+                                 min_separation_angle=25,
+                                 parallel=True)
+
+        save_peaks(output_folder + 'peaks.pam5', peaks, affine)
+        scaled = peaks.peak_dirs * np.repeat(np.expand_dims(peaks.peak_values, -1), 3, -1)
+
+        cropped = scaled[:, :, :, :3, :].reshape(dmri.shape[:3] + (9, ))
+        save_nifti(output_folder + 'peaks.nii.gz', cropped, affine)
+        #save_nifti(output_folder + 'peak_dirs.nii.gz', peaks.peak_dirs, affine)
+        #save_nifti(output_folder + 'peak_vals.nii.gz', peaks.peak_values, affine)
+
+    # tracking
+    print('Tracking...')
+    maskdata, mask = median_otsu(dmri, vol_idx=range(0, dmri.shape[3]), median_radius=3,
+                                 numpass=1, autocrop=True, dilate=2)
+    tensor_model = TensorModel(gtab, fit_method='WLS')
+    tensor_fit = tensor_model.fit(maskdata)
+    fa = fractional_anisotropy(tensor_fit.evals)
+    fa[np.isnan(fa)] = 0
+    bla = np.average(fa)
+    tissue_classifier = ThresholdStoppingCriterion(fa, .1)
+    seeds = random_seeds_from_mask(fa > 1e-5, affine, seeds_count=1)
+
+    streamline_generator = LocalTracking(direction_getter=peaks,
+                                         stopping_criterion=tissue_classifier,
+                                         seeds=seeds,
+                                         affine=affine,
+                                         step_size=.5)
+    streamlines = Streamlines(streamline_generator)
+    save_trk(StatefulTractogram(streamlines, img, Space.RASMM), output_folder + 'whole_brain.trk')
+
+
 set_paths()
 # for p in training_paths:
 #     downsample(p)
@@ -274,4 +415,9 @@ set_paths()
 # for t_id in training_ids:
 #     downsample_segmentations(t_id)
 #alltrks2bin(data_path + 'tractseg/')
-calc_dices()
+#calc_dices()
+# for p in training_paths:
+#     tracking(p + 'T1w/Diffusion_low_res/')
+# for p in training_paths:
+#     tracking(p + 'T1w/Diffusion_low_res/')
+calc_all_mus()
