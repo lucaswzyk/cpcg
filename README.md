@@ -13,10 +13,15 @@
 * KW29 implementation in dipy, generation of data for Recobundles (tracking is hard to accomplish)
 
 ### Liza
-* 13-15.05 installation and first tutorials for dipy, denoising of demo database
-* 17.05 literature review of denoising and expansions 
-* 18.05 denoising of given dataset
-* 19.05 literature review of data registration
+* KW21 general review of tools and literature regarded MRI, installation and first tutorials for dipy, denoising of demo dataset
+* KW22 literature review of preprocessing and denoising, denoising of given dataset
+* KW23 literature review of skull stripping, skull stripping of demo dataset, skull stripping of given dataset 
+* KW24 literature review of motion correction and data registration, data registration of demo dataset
+* KW25 preparation of slides and speech for intermediate presentation
+* KW26 clarification of further task
+* KW27 data registration of given dataset
+* KW28 preparation of report (introduction and preprocessing chapters)
+* KW 29 preparation of report (preprocessing chapter)
 
 
 ### Nils
