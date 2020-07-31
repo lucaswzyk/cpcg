@@ -35,3 +35,7 @@ report parts: 1.2, 1.4, 5, 6
 * KW25 preliminary presentation & preparation
 * KW26 Clarification of further task
 * KW27 Definition of processing pipeline for proveded dataset, adjustments regarding export needs
+* KW28 TractSeg running to create comparison tracs for further analysis
+* KW29: Writeup of reconstruction
+* KW30: Registration of Peak data using RegF3d
+* KW31: Finishing Writeup, Histogramm based comparison
