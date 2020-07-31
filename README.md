@@ -50,5 +50,5 @@ report parts: 1.2, 1.4, 5, 6
 * KW26&27 Discussion on how to proceed and further. Read about VoxelMorph and implementing it. Requires DIPY usage for altering the volume and registering to Talairach space 
        unlike TractSeg, which uses MNI space. Unfortunately, results where not as expected but stumbled upon NiftyReg, which has the highest accuracy for the registration task.
 * KW28&29 Resuming the preparation of the introduction (a part of the introduction) for the report. Used NiftyReg for the registration task. Unfortunately lost all the data due           to board failure.
-* KW30 Compile sections 4 to 4.3 and a part of 4.4 of the report.
+* KW30 Update and compile sections 4 to 4.3 and a part of 4.4 of the report.
 * KW31 Editing and revision of the report.
